@@ -7,6 +7,8 @@ func main() {
 	fmt.Println(a[0])
 	fmt.Println(a[len(a)-1])
 
+	fmt.Println(cap(a))
+
 	for i, v := range a {
 		fmt.Printf("%d %d\n", i, v)
 	}
