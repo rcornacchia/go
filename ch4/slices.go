@@ -18,5 +18,5 @@ func main() {
 		12: "December",
 	}
 
-	fmt.Println(months[3:14])
+	fmt.Println(months[3:13])
 }
