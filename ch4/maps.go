@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 )
 
 func main() {
@@ -14,6 +15,8 @@ func main() {
 	for name := range ages {
 		names = append(names, name)
 	}
+
+	sort.Strings(names)
 
 	fmt.Println(ages)
 	for _, name := range names {
